@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8MYub7FCnUeRZaMWIfoLlAAAAAACAAAAAAAQZgAAAAEAACAAAABO/rG2qaolu1wyaJmZvYVyhgGcaHaGzN9YFrxwJW2UlQAAAAAOgAAAAAIAACAAAADQLsRJZTJMfcIuF2gM90v0G0Hc2wleO76sbiF+X1CyJSAAAAA26AgjisM+QBSAGiM7cocMOESp7UdfiMcoBssDlw4OMUAAAAAw8j6T95qemakqddZwgREpW78ad5XBW+W/KQF8NTBfG0tTrdHMEdJVj0ppBUdu233czyK0Zv5KrTdjauzO27J9</EncryptedPassword>
+    <_PublishTargetUrl>ftp://win5038.site4now.net:21/grandreportplusplus</_PublishTargetUrl>
+    <History>True|2023-11-30T08:23:20.2592184Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Accord.dll.config">
+      <publishTime>10/19/2017 03:59:06</publishTime>
+    </File>
+    <File Include="bin/Accord.dll">
+      <publishTime>10/19/2017 03:59:06</publishTime>
+    </File>
+    <File Include="bin/Accord.dll.config">
+      <publishTime>10/19/2017 03:59:06</publishTime>
+    </File>
+    <File Include="bin/Accord.Math.Core.dll">
+      <publishTime>10/19/2017 03:59:00</publishTime>
+    </File>
+    <File Include="bin/Accord.Math.dll">
+      <publishTime>10/19/2017 03:59:00</publishTime>
+    </File>
+    <File Include="bin/Accord.Statistics.dll">
+      <publishTime>10/19/2017 03:59:08</publishTime>
+    </File>
+    <File Include="bin/Grand_Report.dll">
+      <publishTime>11/30/2023 10:09:44</publishTime>
+    </File>
+    <File Include="bin/Grand_Report.pdb">
+      <publishTime>11/30/2023 10:09:44</publishTime>
+    </File>
+    <File Include="bin/MathNet.Numerics.dll">
+      <publishTime>04/03/2022 17:02:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Win32.Primitives.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/netstandard.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/09/2019 00:56:44</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.dll">
+      <publishTime>05/30/2020 21:29:14</publishTime>
+    </File>
+    <File Include="bin/Python.Runtime.dll">
+      <publishTime>10/11/2023 10:15:20</publishTime>
+    </File>
+    <File Include="bin/System.AppContext.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Collections.Concurrent.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Collections.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Collections.NonGeneric.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Collections.Specialized.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.EventBasedAsync.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.Primitives.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.TypeConverter.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Console.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Data.Common.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.Contracts.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.Debug.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.Process.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.StackTrace.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.TextWriterTraceListener.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.Tools.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.TraceSource.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.Tracing.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Drawing.Primitives.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Dynamic.Runtime.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Globalization.Calendars.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Globalization.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Globalization.Extensions.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.IO.Compression.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.IO.Compression.ZipFile.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.IO.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.IO.FileSystem.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.IO.FileSystem.DriveInfo.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.IO.FileSystem.Primitives.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.IO.FileSystem.Watcher.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.IO.IsolatedStorage.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.IO.MemoryMappedFiles.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.IO.Pipes.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.IO.UnmanagedMemoryStream.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Linq.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Linq.Expressions.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Linq.Parallel.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Linq.Queryable.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Net.NameResolution.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Net.NetworkInformation.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Net.Ping.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Net.Primitives.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Net.Requests.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Net.Security.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Net.Sockets.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Net.WebHeaderCollection.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Net.WebSockets.Client.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Net.WebSockets.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.ObjectModel.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Reflection.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Reflection.Extensions.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Reflection.Primitives.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Resources.Reader.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Resources.ResourceManager.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Resources.Writer.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.VisualC.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.Extensions.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.Handles.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.InteropServices.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.Numerics.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.Serialization.Formatters.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.Serialization.Json.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.Serialization.Primitives.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.Serialization.Xml.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Security.Claims.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Security.Cryptography.Csp.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Security.Cryptography.Encoding.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Security.Cryptography.Primitives.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Security.Principal.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Security.SecureString.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Text.Encoding.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Text.Encoding.Extensions.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Text.RegularExpressions.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Threading.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Overlapped.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.Parallel.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Thread.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Threading.ThreadPool.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Timer.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.ValueTuple.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Xml.ReaderWriter.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Xml.XDocument.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Xml.XmlDocument.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Xml.XmlSerializer.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Xml.XPath.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="bin/System.Xml.XPath.XDocument.dll">
+      <publishTime>09/07/2022 15:36:34</publishTime>
+    </File>
+    <File Include="Confounding.py">
+      <publishTime>10/12/2023 01:39:48</publishTime>
+    </File>
+    <File Include="css/fonts/font-awesome.min.css">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/fontawesome-webfont.eot">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/fontawesome-webfont.ttf">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/fontawesome-webfont.woff">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/fontawesome-webfont.woff2">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/FontAwesome.otf">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/fonts/mainfont.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/fonts/mainfont.ttf">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/fonts/mainfont.woff">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/A.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/B.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/C.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/D.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/E.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/F.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/G.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/H.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/I.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/J.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/K.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/L.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/M.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/N.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/O.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/P.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/Q.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/R.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/S.svg">
+      <publishTime>04/10/2019 11:54:23</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/T.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/U.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/V.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/W.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/X.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/Y.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/avatars/Z.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/badges/Advance.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/badges/Animal_Lover.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/badges/Bot.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/badges/Drink.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/badges/Favorite.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/badges/Gamer.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/badges/Great_Post.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/badges/Intermediate.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/badges/I_Wrote_This.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/badges/Lets_talk.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/badges/Messenger.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/badges/Milk.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/badges/Newbie.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/badges/Viral_Video.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Achive.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Activity.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Add.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Add_User.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Advanced_Search.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Already_Bookmarked.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Arrow_Below.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Arrow_Down.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Arrow_Left.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Arrow_Right.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Arrow_Up.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Arrow_Up2.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Badge.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Blocked.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/BlockQuote.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Bold.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Bookmark.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Bullet_List.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Calender.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Cancel.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Color_Picker.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Copy.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Download.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Downvote.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Email.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Emoticon.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Favorite_Topic.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Flag_Topic.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Group.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/heading.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Horizontal_Line.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Info.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Italic.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Locked.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Login_signup.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Logout.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Logo_Forum.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Menu_Icon.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Message.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/More_Options.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Muted.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/New_Topic.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Notification.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Pencil.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Performatted.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Pinned.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Preferences.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Quote.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Reply_Empty.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Reply_Fill.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Search.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Settings.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Share_Topic.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Support %281%29.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Support.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Track.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Tracking.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Upload_Files.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Upvote.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/User.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Verified.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Watching.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/icons/main/Watch_Later.svg">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/fonts/style.css">
+      <publishTime>04/10/2019 11:54:24</publishTime>
+    </File>
+    <File Include="css/main.css">
+      <publishTime>04/23/2019 01:28:32</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>01/19/2022 15:49:57</publishTime>
+    </File>
+    <File Include="css/util.css">
+      <publishTime>04/23/2019 01:14:21</publishTime>
+    </File>
+    <File Include="fileHandler.ashx">
+      <publishTime>02/27/2020 11:20:18</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>10/13/2023 17:07:38</publishTime>
+    </File>
+    <File Include="jquery/app.js">
+      <publishTime>04/10/2019 11:55:36</publishTime>
+    </File>
+    <File Include="jquery/bootstrap.min.js">
+      <publishTime>02/27/2020 10:24:57</publishTime>
+    </File>
+    <File Include="jquery/ciforum.js">
+      <publishTime>10/17/2019 12:50:46</publishTime>
+    </File>
+    <File Include="jquery/jquery-3.4.1.min.js">
+      <publishTime>02/27/2020 10:22:45</publishTime>
+    </File>
+    <File Include="jquery/test.js">
+      <publishTime>11/29/2023 13:11:45</publishTime>
+    </File>
+    <File Include="jquery/velocity.min.js">
+      <publishTime>02/27/2020 11:11:42</publishTime>
+    </File>
+    <File Include="Pearson_correlation.aspx">
+      <publishTime>03/18/2021 02:28:24</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/v3/bootstrap.min.css">
+      <publishTime>02/27/2020 12:22:39</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/30/2023 10:09:50</publishTime>
+    </File>
+    <File Include="webControlls.aspx">
+      <publishTime>03/12/2021 19:12:02</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
